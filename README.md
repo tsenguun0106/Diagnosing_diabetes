@@ -1,7 +1,15 @@
 # Diabetes prediction analysis
-In this project, I implemented the diabetes diagnosis prediction machine learning model based on individual's various characteristics. 
+In this project, I implemented the diabetes diagnosis prediction machine learning model based on an individual's various characteristics. 
+
+**Problem statement:** Doctors need to diagnose diabetes based on an individual's characteristics such as blood pressure and cholesterol levels. Here, I create and train the ML model to automate this diabetes diagnosis process. 
 
 ## Part 1. Data cleaning and transformation
+
+The following characteristics of an individual are provided in the data:
+
+<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/a233f030-9611-40d9-94f7-5b3786f69672" width="300px">
+
+
 
 <!---
 ### Variables:
