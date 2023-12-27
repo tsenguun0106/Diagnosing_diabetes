@@ -7,7 +7,7 @@ In this project, I implemented the diabetes diagnosis prediction machine learnin
 
 The following characteristics of an individual are provided in the data:
 
-<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/a233f030-9611-40d9-94f7-5b3786f69672" width="300px">
+<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/a233f030-9611-40d9-94f7-5b3786f69672" width="350px">
 
 
 
