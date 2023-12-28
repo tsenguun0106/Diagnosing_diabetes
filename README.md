@@ -37,6 +37,7 @@ To reduce the code repetition, I created the function which conducts one-hot-enc
 ### Upper and lower blood pressure measurements cleaning:
 The format of upper and lower blood pressure measurements in the dataset is "120/80". The value before "/" is for the upper blood pressure measurement, and the value after "/" is for the lower blood pressure measurement. I separated this variable into two variables. The first variable indicates the upper blood pressure measurement, and the second variable demonstrates the lower blood pressure measurement. 
 
+
 ### Gender label cleaning:
 Gender was labelled inconsistently. For female, it was labelled as "female" or "f". For male, it was labelled as "male" or "m". I labelled female only as "f", and labelled male only as "m". Then, I conducted the one-hot-encoding for this gender variable. 
 
@@ -48,9 +49,27 @@ Weight column in the dataset had many missing values. Dropping missing weight va
 
 ## Part 2. Exploratory data analysis and visualization
 
-I conducted the exploratory data analysis for the following variables: upper blood pressure, lower blood pressure, alcohol consumption, smoking, weight, glucose level, and phisycal activity. I used the box plot for upper and lower blood pressures. Diabetic people tend to have higher upper and lower blood pressures. For alcohol and smoking, diabetic people have slightly higher rates for alcohol consumption and smoking compared with non-diabetic people. 
+I conducted the exploratory data analysis for the following variables: upper blood pressure, lower blood pressure, alcohol consumption, smoking, weight, glucose level, and phisycal activity. I used the box plot for upper and lower blood pressures. Diabetic people tend to have higher upper and lower blood pressure levels. 
 
-Visualization for weight distribution across diabetic and non-diabetic people indicates that diabetic people tend to have higher weights  relative to non-diabetic people. Moreover, visulation for glucose level distribution demonstrates that diabetic people have higher glucose level in average than non-diabetic people. Furthermore, physical activity visualization showed that non-diabetic people are more physically active than non-diabetic people in average. 
+<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/4f965302-b88d-4667-9ff1-9a0867500724" width="350px">
+
+<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/b59434e6-ac00-466e-97f5-75e01f407c02" width="350px">
+
+For alcohol and smoking, diabetic people have slightly higher rates of alcohol consumption and smoking compared with non-diabetic people. 
+
+<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/6b337d64-db36-48ea-8da0-a4d0976fea1e" width="350px">
+
+<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/b5e08891-7310-40ff-a72c-2aae68344467" width="350px">
+
+
+Visualization for weight distribution across diabetic and non-diabetic people indicates that diabetic people tend to have higher weights  relative to non-diabetic people. Moreover, visualization for glucose level distribution demonstrates that diabetic people have higher glucose levels on average than non-diabetic people. Furthermore, physical activity visualization showed that non-diabetic people are more physically active than non-diabetic people on average. 
+
+<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/acab9f73-fc86-4f56-a44c-994dd9f2f16c" width="350px">
+
+The following chart demonstrates that diabetic people tends to be with higher levels of cholesterol compared with non-diabetic people. 
+
+<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/5bdcf047-6b8c-4820-8713-1851100f233b" width="350px">
+
 
 ## Part 3. Machine learning model building for diabetes diagnosis
 
