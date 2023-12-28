@@ -114,3 +114,14 @@ With these two extra regressors, I tried the logistic regression model and the R
 Using age as an extra regressor, the Random Forest Classifier model provided the accuracy of 94.3% on validation data. 
 
 ![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/23e91b4a-d610-4c19-8072-ae37eb3e06b4)
+
+### 5. Cleaning missing values: 
+
+We can see that the weight data has a lot of missing values. 
+![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/742382cc-865d-4367-a0f0-c2d2455770cb)
+
+Then, I imputed the missing values for weight data using the simple mean imputer method from the sklearn. 
+
+![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/f5c694a5-de3a-44db-9ad9-d5009acbee5f)
+
+
