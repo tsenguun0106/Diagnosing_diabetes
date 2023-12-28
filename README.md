@@ -124,4 +124,23 @@ Then, I imputed the missing values for weight data using the simple mean imputer
 
 ![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/f5c694a5-de3a-44db-9ad9-d5009acbee5f)
 
+Imputed weight data is used as an extra regressor. 
+
+![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/e10f69a4-c837-4bd3-b04f-44f23827a5b3)
+
+Then, I have trained the ML models to diagnose the diabetes. 
+
+![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/74061ba4-598e-4549-8caf-ad4a00bfc736)
+
+The Random Forest Classifier model achieved an accuracy of 98.88% on validation data. 
+
+### 6. Running the XGBoost model with all regressors available: 
+
+![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/e3d3dacb-b08e-4f6d-b77a-41cdbc616f0d)
+
+The feature importance result from the XGBoost model indicates that the glucose level, physical activity, gender, cholesterol level, lower blood pressure level, weight, and age are important factors for diagnosing the diabetes. 
+
+![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/7d45556b-085a-453c-b7fa-d53941ef245b)
+
+## Part 4. Summary
 
