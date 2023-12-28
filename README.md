@@ -78,7 +78,18 @@ The following chart demonstrates that diabetic people tends to be with higher le
 ## Part 3. Machine learning model building for diabetes diagnosis
 
 1. Logistic regression model:
+
 I built the logistic regression model as the first machine learning model. Target variable is the dummy variable indicating diabetic or non-diabetic. Regressors or explanatory variables are smoking, alcohol consumption, upper blood pressure, lower blood pressure, cholesterol level, glucose level, height, gender, age, and weight. 
 
+Accuracy for the logistic regression model based on the validation/test data: 
+
+![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/d8a0bb19-f0a5-442e-9d09-689df4655b2c)
+
+
 3. Random Forest Classifier model: 
-I used the Random Forest Classifier model as the second machine learning model for diagnosing the diabetes. Target variable is the dummy variable indicating diabetic or non-diabetic. Regressors or explanatory variables are smoking, alcohol consumption, upper blood pressure, lower blood pressure, cholesterol level, glucose level, height, gender, age, and weight. Max depth of each tree in the forest is 19 and random state seed value is 0. Furthermore, I plotted the feature importances for explanatory variables from this Random Forest Classifier model. The model indicated that glucose level, age, weight, physical activity, lower blood pressure, upper blood pressure, and gender are important variables in diagnosing the diabetes. 
+
+I used the Random Forest Classifier model as the second machine learning model for diagnosing the diabetes. Target variable is the dummy variable indicating diabetic or non-diabetic. Regressors or explanatory variables are smoking, alcohol consumption, upper blood pressure, lower blood pressure, cholesterol level, glucose level, height, gender, age, and weight. Max depth of each tree in the forest is 19 and the random state seed value is 0. Furthermore, I plotted the feature importances for explanatory variables from this Random Forest Classifier model. The model indicated that glucose level, age, weight, physical activity, lower blood pressure, upper blood pressure, and gender are important variables in diagnosing diabetes. 
+
+Accuracy for the Random Forest Classifier model based on the validation/test data: 
+
+![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/d5fd3c8a-0d37-41b6-9e7c-7c422227b01f)
