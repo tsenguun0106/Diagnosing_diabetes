@@ -144,3 +144,4 @@ The feature importance result from the XGBoost model indicates that the glucose 
 
 ## Part 4. Summary
 
+After important data cleaning and missing value imputation procedures, the XGBoost model achieved an accuracy of 99.12% on validation data. The Random Forest Classifier model achieved an accuracy of 98.88%, and the logistic regression model achieved an accuracy of 96.5%. We can see that the main improvement in model performance came from the data cleaning and missing value imputation. Thus, this case demonstrates the importance of the data cleaning and missing value imputation very clearly in the ML model-building process. 
