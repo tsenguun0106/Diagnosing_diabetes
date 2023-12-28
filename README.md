@@ -68,11 +68,11 @@ For alcohol and smoking, diabetic people have slightly higher rates of alcohol c
 
 Visualization for weight distribution across diabetic and non-diabetic people indicates that diabetic people tend to have higher weights  relative to non-diabetic people. Moreover, visualization for glucose level distribution demonstrates that diabetic people have higher glucose levels on average than non-diabetic people. Furthermore, physical activity visualization showed that non-diabetic people are more physically active than non-diabetic people on average. 
 
-<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/acab9f73-fc86-4f56-a44c-994dd9f2f16c" width="350px">
+<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/acab9f73-fc86-4f56-a44c-994dd9f2f16c" width="300px">
 
 The following chart demonstrates that diabetic people tends to be with higher levels of cholesterol compared with non-diabetic people. 
 
-<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/5bdcf047-6b8c-4820-8713-1851100f233b" width="350px">
+<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/5bdcf047-6b8c-4820-8713-1851100f233b" width="300px">
 
 
 ## Part 3. Machine learning model building for diabetes diagnosis
