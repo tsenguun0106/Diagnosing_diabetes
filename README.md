@@ -106,3 +106,11 @@ With these two extra regressors, I tried the logistic regression model and the R
 
 ![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/eb364b62-862d-461a-b500-f0ac5336f058)
 
+
+### 4. Adding age as an extra regressor: 
+
+![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/71a282eb-a757-4dd9-909f-cb51a918342a)
+
+Using age as an extra regressor, the Random Forest Classifier model provided the accuracy of 94.3% on validation data. 
+
+![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/23e91b4a-d610-4c19-8072-ae37eb3e06b4)
