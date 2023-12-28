@@ -49,16 +49,17 @@ Weight column in the dataset had many missing values. Dropping missing weight va
 
 ## Part 2. Exploratory data analysis and visualization
 
-I conducted the exploratory data analysis for the following variables: upper blood pressure, lower blood pressure, alcohol consumption, smoking, weight, glucose level, and phisycal activity. I used the box plot for upper and lower blood pressures. Diabetic people tend to have higher upper and lower blood pressure levels. 
+I conducted the exploratory data analysis for the following variables: upper blood pressure, lower blood pressure, alcohol consumption, smoking, weight, glucose level, and phisycal activity. I used the box plot for upper and lower blood pressure levels. Diabetic people tend to have higher upper and lower blood pressure levels. 
 
 <img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/4f965302-b88d-4667-9ff1-9a0867500724" width="350px">
+
 .
 
 <img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/b59434e6-ac00-466e-97f5-75e01f407c02" width="350px">
 
 For alcohol and smoking, diabetic people have slightly higher rates of alcohol consumption and smoking compared with non-diabetic people. 
 
-<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/6b337d64-db36-48ea-8da0-a4d0976fea1e" width="350px">
+<img src="https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/6b337d64-db36-48ea-8da0-a4d0976fea1e" width="450px">
 
 .
 
