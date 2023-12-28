@@ -86,10 +86,23 @@ Accuracy for the logistic regression model based on the validation/test data:
 ![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/d8a0bb19-f0a5-442e-9d09-689df4655b2c)
 
 
-3. Random Forest Classifier model: 
+2. Random Forest Classifier model: 
 
 I used the Random Forest Classifier model as the second machine learning model for diagnosing the diabetes. Target variable is the dummy variable indicating diabetic or non-diabetic. Regressors or explanatory variables are smoking, alcohol consumption, upper blood pressure, lower blood pressure, cholesterol level, glucose level, height, gender, age, and weight. Max depth of each tree in the forest is 19 and the random state seed value is 0. Furthermore, I plotted the feature importances for explanatory variables from this Random Forest Classifier model. The model indicated that glucose level, age, weight, physical activity, lower blood pressure, upper blood pressure, and gender are important variables in diagnosing diabetes. 
 
 Accuracy for the Random Forest Classifier model based on the validation/test data: 
 
 ![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/d5fd3c8a-0d37-41b6-9e7c-7c422227b01f)
+
+3. Adding demographic info as extra regressors:
+
+![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/5833c721-c268-4ffa-b70e-a2572913dc25)
+
+I cleaned the gender info data accordingly. 
+
+![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/4eb1bb7e-2980-4d88-9bba-e0a702176187)
+
+With these two extra regressors, I tried the logistic regression model and the Random Forest Classifier model. They provided approximately 92% accuracy on validation data. 
+
+![image](https://github.com/tsenguun0106/Diagnosing_diabetes/assets/60633314/eb364b62-862d-461a-b500-f0ac5336f058)
+
